@@ -4,6 +4,7 @@ import Child from "./child"
 import Onchange from './onchange';
 import Counterapp from './counterapp';
 import MyPromisecomponent from './promise';
+import Asyncpromise from './asyncpromise';
 function App() {
   const name="helloo";
   return (
@@ -12,6 +13,7 @@ function App() {
      <Onchange />
      <Counterapp />
     <MyPromisecomponent />
+    <Asyncpromise />
     </div>
   );
 }
