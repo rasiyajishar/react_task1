@@ -5,6 +5,7 @@ import Onchange from './onchange';
 import Counterapp from './counterapp';
 import MyPromisecomponent from './promise';
 import Asyncpromise from './asyncpromise';
+import Fetchapi from './fetchapi';
 function App() {
   const name="helloo";
   return (
@@ -14,6 +15,7 @@ function App() {
      <Counterapp />
     <MyPromisecomponent />
     <Asyncpromise />
+    <Fetchapi />
     </div>
   );
 }
